@@ -22,7 +22,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-#   owner: user:guest
+  owner: team:60003948
   system: bstage-cronjobs
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
