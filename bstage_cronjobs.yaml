@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cronjobs
+  description: Bstage cronjobs
+  tags:
+    - java
+  links:
+    - url: https://flog.booking.com/?persona=b-bstage-cronjobs
+      title: fl
+      icon: group
+    - url: https://kuhub.prod.booking.com/#/projects/bstage/services/cronjobs
+      title: Kuhub
+      icon: group
+  annotations:
+    booking.com/project: bstage
+    booking.com/component: cronjobs
+    backstage.io/kubernetes-label-selector: service-directory.project=bstage,service-directory.service=cronjobs
+    backstage.io/managed-by-location: url:https://services.booking.com/project/bstage/component/cronjobs
+    backstage.io/kubernetes-namespace: bstage
+    # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+spec:
+  type: service
+  lifecycle: production
+#   owner: user:guest
+  system: bstage-cronjobs
+  dependsOn: ['resource:artists-db']
+  apiConsumedBy: ['component:www-artist']
