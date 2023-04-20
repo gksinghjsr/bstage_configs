@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insights
+  description: Bstage insights
+  tags:
+    - java
+  links:
+    - url: https://flog.booking.com/?persona=b-bstage-insights
+      title: fl
+      icon: group
+    - url: https://kuhub.prod.booking.com/#/projects/bstage/services/insights
+      title: Kuhub
+      icon: group
+  annotations:
+    booking.com/project: bstage
+    booking.com/component: insights
+    backstage.io/kubernetes-label-selector: service-directory.project=bstage,service-directory.service=insights
+    backstage.io/managed-by-location: url:https://services.booking.com/project/bstage/component/insights
+    backstage.io/kubernetes-namespace: bstage
+    backstage.io/techdocs-ref: url:https://github.com/gksinghjsr/bstage_configs/tree/main
+    # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+spec:
+  type: service
+  lifecycle: production
+  owner: team:60003948
+  system: bstage-insights
+  dependsOn: ['resource:artists-db']
+  apiConsumedBy: ['component:www-artist']
