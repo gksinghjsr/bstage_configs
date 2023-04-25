@@ -20,6 +20,8 @@ metadata:
     backstage.io/kubernetes-namespace: bstage
     backstage.io/techdocs-ref: url:https://github.com/gksinghjsr/bstage_configs/tree/main
     github.com/project-slug: gksinghjsr/bstage_configs
+    harness.io/project-url: https://app.harness.io/#/account/J5mzEK62SRGlD3gve5nGMg/app/pxgCC6hqTk6TnAIHanLIUw/details
+    
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
 spec:
   type: service
