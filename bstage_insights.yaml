@@ -22,6 +22,7 @@ metadata:
     github.com/project-slug: gksinghjsr/bstage_configs
     harness.io/project-url: https://app.harness.io/#/account/J5mzEK62SRGlD3gve5nGMg/app/pxgCC6hqTk6TnAIHanLIUw/details
     harness.io/cd-serviceId: https://app.harness.io/#/account/J5mzEK62SRGlD3gve5nGMg/app/pxgCC6hqTk6TnAIHanLIUw/services/KC0xIfbySVuocxD6zm2IYg/details
+    harness.io/ci-pipelineIds: gDHQei-sTje6MWwFWTsFlA
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
 spec:
   type: service
