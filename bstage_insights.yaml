@@ -19,7 +19,7 @@ metadata:
     backstage.io/managed-by-location: url:https://services.booking.com/project/bstage/component/insights
     backstage.io/kubernetes-namespace: bstage
     backstage.io/techdocs-ref: url:https://github.com/gksinghjsr/bstage_configs/tree/main
-    github.com/project-slug: bstage/insights
+    github.com/project-slug: gksinghjsr/bstage_configs
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
 spec:
   type: service
