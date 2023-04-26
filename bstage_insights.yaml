@@ -18,7 +18,7 @@ metadata:
     backstage.io/kubernetes-label-selector: service-directory.project=bstage,service-directory.service=insights
     backstage.io/managed-by-location: url:https://services.booking.com/project/bstage/component/insights
     backstage.io/kubernetes-namespace: bstage
-    backstage.io/techdocs-ref: url:https://github.com/gksinghjsr/bstage_configs/tree/main
+    backstage.io/techdocs-ref: url:https://github.com/gksinghjsr/bstage_configs
     github.com/project-slug: gksinghjsr/bstage_configs
     harness.io/project-url: https://app.harness.io/#/account/J5mzEK62SRGlD3gve5nGMg/app/pxgCC6hqTk6TnAIHanLIUw/details
     harness.io/cd-serviceId: https://app.harness.io/#/account/J5mzEK62SRGlD3gve5nGMg/app/pxgCC6hqTk6TnAIHanLIUw/services/KC0xIfbySVuocxD6zm2IYg/details
