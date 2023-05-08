@@ -19,7 +19,7 @@ metadata:
     backstage.io/managed-by-location: url:https://services.booking.com/project/bstage/component/cronjobs
     backstage.io/kubernetes-namespace: bstage
     gitlab.com/project-id: '45704676' #1234. This must be in quotes and can be found under Settings --> General
-    sonarqube.org/project-key: sq-enterprise.prod.booking.com/bookingcomadvertising-solutions-lp-web-mfe
+    sonarqube.org/project-key: sq-enterprise.prod.booking.com/bookingcomflights-app
         # or
 #     gitlab.com/project-slug: 'gysingh/opa' # group_name/project_name
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
