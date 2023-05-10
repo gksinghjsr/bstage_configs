@@ -20,6 +20,7 @@ metadata:
     backstage.io/kubernetes-namespace: bstage
     gitlab.com/project-id: '45704676' #1234. This must be in quotes and can be found under Settings --> General
     sonarqube.org/project-key: bookingcomflights-app
+    github.com/project-slug: gksinghjsr/bstage_configs
         # or
 #     gitlab.com/project-slug: 'gysingh/opa' # group_name/project_name
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
