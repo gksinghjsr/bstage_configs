@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: insights
+  namespace: bstage
   description: Bstage insights
   tags:
     - java
