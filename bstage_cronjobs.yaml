@@ -25,6 +25,7 @@ metadata:
     jira/project-key: SERDIR
     jira/token-type: Bearer
     grafana/dashboard-selector: jTSKTPjVz
+    grafana/tag-selector: "tags @> 'generated'"
         # or
 #     gitlab.com/project-slug: 'gysingh/opa' # group_name/project_name
     # backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
