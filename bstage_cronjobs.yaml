@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cronjobs
+  namespace: bstage
   description: Bstage cronjobs
   tags:
     - java
