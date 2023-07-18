@@ -25,7 +25,7 @@ metadata:
     dynatrace.com/dynatrace-entity-id: fd5fb239-284e-4eb0-8a1b-ea1739ed2639
     jira/project-key: SERDIR
     jira/token-type: Bearer
-    grafana/dashboard-selector: EFONEEj4z
+    grafana/dashboard-selector: 1amfEPjVz
     grafana/tag-selector: "tags @> 'bstage'"
         # or
 #     gitlab.com/project-slug: 'gysingh/opa' # group_name/project_name
